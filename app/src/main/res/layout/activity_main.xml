@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:padding="15dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/mainTitle"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:fontFamily="monospace"-->
+    <!--        android:hint="Title"-->
+    <!--        android:inputType="text"-->
+    <!--        android:textSize="16sp" />-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/mainDescription"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:fontFamily="monospace"-->
+    <!--        android:hint="Title"-->
+    <!--        android:inputType="text"-->
+    <!--        android:textSize="16sp" />-->
+    <Button
+        android:id="@+id/create_new_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bg"
+        android:fontFamily="monospace"
+        android:text="@string/create_new_note_btn"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" />
+
+
+</LinearLayout>
